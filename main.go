@@ -40,11 +40,11 @@ func pastMonthCommits() (int, error) {
 
 func littlePiggyPiggy(howMuch int) string {
 	return fmt.Sprintf(""+
-		"        |\\_,,____ \n"+
-		"        ( o__o \\/            PIGGY IS PROUD OF YOU\n"+
-		"        /(..)  \\                 YOU'VE EARNED\n"+
-		"       (_ )--( _)                  \033[1;92m  $%d \033[0m \n"+
-		"       / \"\"--\"\" \\ \n"+
+		"|\\_,,____ \n"+
+		"( o__o \\/            PIGGY IS PROUD OF YOU\n"+
+		"/(..)  \\                 YOU'VE EARNED\n"+
+		"(_ )--( _)                  \033[1;92m  $%d \033[0m \n"+
+		"/ \"\"--\"\" \\ \n"+
 		"", howMuch)
 }
 

@@ -22,7 +22,6 @@ func pastMonthCommits() (int, error) {
 	go func() {
 		defer wcPipe.Close()
 		wcPipe.Write(commits)
-
 	}()
 	amount, err := wc.Output()
 	if err != nil {
